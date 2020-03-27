@@ -1,0 +1,24 @@
+{
+    "proxy": {
+        "http_proxy": "",
+        "https_proxy": ""
+    },
+    "common": {
+        "api-endpoint": "https://synthetics.newrelic.com/synthetics/api",
+        "api-version": "v3",
+        "download-dir": "accounts",
+        "start-from": "2000-01-01T00:00:00.000000+0000"
+    },
+    "accounts": [
+        {
+            "account-id": "1111111",
+            "account-name": "Account Name 1",
+            "admin-api-key": "NRAA-c0pypast3th3adm1nap1k3yh3r3"
+        },
+        {
+            "account-id": "1234567",
+            "account-name": "Account Name 2",
+            "admin-api-key": "NRAA-past3an0th3radm1nap1k3yh3r3"
+        }
+    ]
+}
